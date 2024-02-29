@@ -1,0 +1,3 @@
+("Not Reported: "; names of elements of (targeted computer set of it - reported computer set of it);
+(if (type of source fixlets of it as lowercase = "fixlet") then "Fixed: "; (unique values of names of computers of results whose (status of it as string as lowercase = "fixed") of it) else "Completed: "; (unique values of names of computers of results whose (status of it as string as lowercase = "fixed") of it));
+"Failed: "; unique values of names of computers of results whose (status of it as string as lowercase = "failed") of it) of bes action whose (id of it = 29523)
